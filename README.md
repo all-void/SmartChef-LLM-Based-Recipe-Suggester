@@ -30,14 +30,10 @@ SmartChef is an AI-powered full-stack recipe suggestion platform that generates 
 1. Navigate to the `frontend-react/` directory:
 - launch react app through npm run dev or npm start 
 2. Navigate to the 'backend-flask/' directory:
-- Install the Gemini API SDK:
-The Python SDK for the Gemini API is contained in the google-generativeai package. Install the dependency using pip:pip install -U google-generativeai
-Set up your API key
-To use the Gemini API, you'll need an API key. If you don't already have one, create a key in Google AI Studio.
-Then, configure your key.
-It is strongly recommended that you do not check an API key into your version control system but assign it as an environment variable instead:export API_KEY=<YOUR_API_KEY>
-3. Run the backend server - naviagte to 'backend-flask/' directory : Run $ flask --app serverFlask run
- Serving Flask app 'serverFlask'
- Running on http://127.0.0.1:5000
-- Your server should run on this address and port 
+- Install the Gemini API SDK:The Python SDK for the Gemini API is contained in the google-generativeai package. 
+- Install the dependency using pip:pip install -U google-generativeai
+- Set up your API key:To use the Gemini API, you'll need an API key. If you don't already have one, create a key in Google AI Studio.
+- Then, configure your key: It is strongly recommended that you do not check an API key into your version control system but assign it as an environment variable instead:export API_KEY=<YOUR_API_KEY>
+3. Run the backend server - naviagte to 'backend-flask/' directory : Give command $ flask --app serverFlask run
+- Your server should run on this address and port:Running on http://127.0.0.1:5000
 4. Now both front end and backend server is running and you can use the project to get your favourite Indian Recipe using custom inputs , assuming you have basic spices present. Enjoy the meal !! 
